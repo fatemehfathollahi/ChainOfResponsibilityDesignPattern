@@ -14,7 +14,7 @@ namespace ChainOfResponsibilityDesignPattern
         public Handlerbase(Handlerbase nextTeam, ContextObject question)
         {
             NextTeam = nextTeam;
-            Question = question;
+            Question = question; 
         }
 
         public abstract void HandleRequest();
